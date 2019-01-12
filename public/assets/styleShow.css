@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: #7e87a1;
+  font-family: Roboto;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  /* Essentially means a[href], or that the link actually goes somewhere */
+  color: #7e87a1;
+  text-decoration: none;
+}
+.active {
+  border-left: solid 6px #4fa1e4;
+  border-top: solid 6px white;
+  border-bottom: solid 6px white;
+}
+.actbin {
+  border-left: solid 6px red;
+  border-top: solid 6px white;
+  border-bottom: solid 6px white;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #f4f5fa;
+  position: fixed;
+  z-index: 2;
+}
+.leftcomponent {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo {
+  font-size: 30px;
+}
+.logo img {
+  margin: 20px 43px;
+}
+.logo p {
+  margin-left: 64px;
+  margin-top: -40px;
+}
+.myfile {
+  height: 5%;
+  width: 200px;
+}
+.myfile img {
+  margin-left: 38px;
+
+  margin-top: 10px;
+}
+.myfile a {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+.bin {
+  height: 5%;
+  width: 200px;
+
+  margin-top: 10px;
+}
+.bin img {
+  height: 26px;
+  margin-left: 50px;
+  margin-left: 41px;
+}
+.bin a {
+  margin-left: 4px;
+  position: absolute;
+  width: 181px;
+  margin-top: 3px;
+}
+.admin {
+  height: 5%;
+  width: 200px;
+  margin-top: 10px;
+}
+.admin img {
+  height: 26px;
+  margin-left: 50px;
+  margin-left: 41px;
+}
+.admin a {
+  margin-left: 4px;
+  position: absolute;
+  width: 181px;
+  margin-top: 3px;
+}
+.storimg {
+  margin-top: 8%;
+  display: flex;
+}
+.storimg img {
+  height: 30px;
+  margin-left: 32px;
+}
+.storimg p {
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 2px;
+}
+.szlider {
+  width: 130px;
+  height: 6px;
+  border: 1px solid #7e87a1;
+  margin-left: 30px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+.szliderbar {
+  height: 15px;
+  border-right: 1px solid #7e87a1;
+  background: rgb(14, 120, 190);
+}
+.storparg {
+  font-size: 0.8rem;
+  margin-left: 30px;
+}

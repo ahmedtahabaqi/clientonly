@@ -1,0 +1,29 @@
+.table {
+  color: #7e87a1;
+  font-family: Roboto;
+  z-index: 6;
+  background-color: #ffff;
+  height: 571px;
+  width: 78%;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 353px;
+}
+.Files {
+  margin-left: 0px;
+  position: absolute;
+  font-size: 1.2rem;
+  margin-top: -39px;
+  display: flex
+  
+}
+#img {
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  width: 40px;
+  height: 50px;
+
+}
+#undoFolder{
+  display: none
+}

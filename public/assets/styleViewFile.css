@@ -1,0 +1,107 @@
+.viewFile {
+  color: #7e87a1;
+  font-family: Roboto;
+  z-index: 4;
+  background-color: #f4f5fa;
+  height: 30px;
+  width: 78%;
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 100px;
+}
+
+#sortBtn{
+  border: 1px solid #427fed;
+  background-color: #ffffff;
+  font: 1em sans-serif;
+ 
+}
+#arrow{
+
+  font-size: 30px;
+  font-weight: bolder;
+  color: #427fed;
+ 
+}
+.tableHader{
+  background-color: #ffffff;
+}
+
+container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ }
+ 
+ /* Hide the browser's default radio button */
+ .container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  margin-left: 20px;
+ }
+ 
+ /* Create a custom radio button */
+ .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 100px;
+ }
+ 
+ /* On mouse-over, add a grey background color */
+ .container:hover input ~ .checkmark {
+  background-color: #eee;
+ }
+ 
+ /* When the radio button is checked, add a blue background */
+ .container input:checked ~ .checkmark {
+  background-color: #2196f3;
+ }
+ 
+ /* Create the indicator (the dot/circle - hidden when not checked) */
+ .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+ }
+ 
+ /* Show the indicator (dot/circle) when checked */
+ .container input:checked ~ .checkmark:after {
+  display: block;
+ }
+ 
+ /* Style the indicator (dot/circle) */
+ .container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+ }
+ .MB {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 30px;
+ }
+ .cardname {
+  margin-left: 60px;
+  position: absolute;
+  font-size: 1.3rem;
+  color: #2196f3;
+ }
